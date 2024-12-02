@@ -1,3 +1,39 @@
 img{
-display: grid;
+    border-radius: 10px;
+    border: solid 3px gray;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    position: relative;
+    display: flex;
+    max-width: 210px;
+    min-height: 130px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.card-check{
+transform:rotateY(0)
+}
+
+.card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(103, 125, 172) ;
+    border-radius: 10px;
+    border: solid 3px gray;
+    
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
 }

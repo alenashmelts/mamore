@@ -1,0 +1,56 @@
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    overflow-y: hidden;
+    overscroll-behavior: contain;
+    pointer-events: auto;
+    animation: fadeIn 0.9s 1.6s both;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.modal-box{
+    position: relative;
+    width: 320px;
+    min-height: 285px;
+    max-height: 100%;
+    padding: 72px 40px 36px;
+    background-color: antiquewhite;
+    box-shadow: 0 10px 40px red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.modak-caption{
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.modak-description{
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.modal .button{
+    width: 100%;
+}

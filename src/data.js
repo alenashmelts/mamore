@@ -7,40 +7,54 @@ import img4 from './img/cats-4.jpg'
 import img5 from './img/cats-5.jpg'
 import img6 from './img/cats-6.jpg'
 
+
+
 export const images = [{
     'id' : '1',
     'url': img1,
+
    }, {
     'id' : '2',
-    'url': img2,  
+    'url': img2, 
+  
    }, {
     'id' : '3',
-    'url': img3,  
+    'url': img3, 
+ 
    }, {
     'id' : '4',
-    'url': img4,  
+    'url': img4, 
+
    }, {
     'id' : '5',
-    'url': img5,  
+    'url': img5, 
+
    }, {
     'id' : '6',
-    'url': img6,  
+    'url': img6, 
+
    }, {
     'id' : '7',
-    'url': img1,  
+    'url': img1, 
+
    }, {
     'id' : '8',
-    'url': img2,  
+    'url': img2, 
+
    }, {
     'id' : '9',
-    'url': img3,  
+    'url': img3, 
+
    }, {
     'id' : '10',
-    'url': img4,  
+    'url': img4, 
+
    }, {
     'id' : '11',
-    'url': img5,  
+    'url': img5, 
+
    }, {
     'id' : '12',
-    'url': img6,  
+    'url': img6, 
+
    }];

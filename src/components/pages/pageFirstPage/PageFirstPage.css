@@ -1,0 +1,17 @@
+.isActive{
+    margin: 30px;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.link:hover {
+    
+}
+
+.link--active{
+    font-weight: bold;
+
+}
